@@ -6,7 +6,7 @@ description: Next.js pages are React Components exported in a file in the pages 
 
 A page is a [React Component](https://reactjs.org/docs/components-and-props.html) exported from a `.js`, `.ts`, or `.tsx` file in the `pages` directory.
 
-Pages are associated with a route based on their file name. For example `pages/about.js` is mapped to `/about`. You can even utilize dynamic route parameters through the filename.
+Pages are associated with a route based on their file name. For example `pages/about.js` is mapped to `/about`. You can even utilize [dynamic route parameters](/docs/routing/dynamic-routes) through the filename.
 
 For example `pages/index.js` could be a React component returning some [JSX](https://reactjs.org/docs/introducing-jsx.html) content:
 
